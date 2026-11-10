@@ -5,8 +5,8 @@
 
   /* fluid sizes, anchored to Figma values at 393px and 1440px viewports */
   --logo-width: clamp(326px, 254.26px + 18.25vw, 517px);
-  /* heading anchored to Figma values at 393px (36px) and 624px (48px, holds flat beyond) */
-  --heading-size: clamp(36px, 15.58px + 5.19vw, 48px);
+  /* heading anchored to 393px (27px, 25% below the Figma 36px) and 624px (48px, holds flat beyond) */
+  --heading-size: clamp(27px, -8.73px + 9.09vw, 48px);
 }
 
 * {
